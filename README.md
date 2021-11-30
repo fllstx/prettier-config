@@ -32,12 +32,3 @@ module.exports = {
   "printWidth": 80,
 };
 ```
-
-### .prettierrc.json
-
-```json
-{
-  "$schema": "http://json.schemastore.org/prettierrc",
-  "extends": "@fullstax/prettier-config"
-}
-```
