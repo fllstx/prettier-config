@@ -1,0 +1,9 @@
+{
+  "name": "@fullstax/prettier-config",
+  "version": "1.0.0",
+  "description": "fullstax Prettier config",
+  "main": "prettierrc.json",
+  "repository": "git@github.com:fllstx/prettier-config.git",
+  "author": "Alexander Wunschik <alexander.wunschik@fullstax.de>",
+  "license": "MIT"
+}
