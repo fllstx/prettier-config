@@ -32,3 +32,34 @@ module.exports = {
   "printWidth": 80,
 };
 ```
+
+### vscode
+
+**settings.json**
+```json
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.detectIndentation": true,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 2,
+	"editor.wordWrapColumn": 100,
+	"editor.selectionClipboard": false,
+	"markdownlint.config": {
+		"line-length": false,
+		"no-duplicate-heading": false,
+		"no-hard-tabs": false
+	},
+	"[javascript]": {
+		"editor.formatOnSave": true
+	},
+	"[json]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+}
+```
